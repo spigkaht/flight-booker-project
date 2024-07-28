@@ -12,7 +12,7 @@ Flight.destroy_all
 Airport.destroy_all
 puts "All clean!"
 
-20.times do |i|
+10.times do |i|
   Airport.create!(code: Faker::Travel::Airport.iata(size: 'large', region: 'united_states'))
   puts "Created airport ##{i}"
 end
@@ -22,7 +22,7 @@ airports = Airport.all
 ltrs = ("A".."Z").to_a
 nums = (0..9).to_a
 
-50.times do |i|
+500.times do |i|
   Flight.create!(
     departure_airport: airports.sample,
     arrival_airport: airports.sample,

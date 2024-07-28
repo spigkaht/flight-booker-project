@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Booking for flight: <%= @booking.flight.flight_number %></h1>
+  <h2>Booking confirmed!</h2>
+
+  <% @booking.passengers.each do |passenger| %>
+    <p>Passenger name: <%= passenger.name %></p>
+    <p>Passenger email: <%= passenger.email %></p>
+  <% end %>
+
+  <%= link_to "Back to Search", root_path %>
+</div>

@@ -1,0 +1,51 @@
+th, td {
+  border: 1px solid red;
+  padding: 10px;
+}
+
+th {
+  background-color: aquamarine;
+}
+
+.button-flights {
+  padding: 12px;
+  border: 1px solid darkgrey;
+  background-color: aquamarine;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.button-flights:hover {
+  background-color: blue;
+}
+
+.container {
+  padding: 10px;
+}
+
+.form-group {
+  padding: 10px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+select {
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 10px;
+}
